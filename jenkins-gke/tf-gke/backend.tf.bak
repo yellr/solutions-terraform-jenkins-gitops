@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "vpn-project-341713-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }
